@@ -13,7 +13,7 @@
 </head>
 <body>
     
-    <header class="flex fixed">  <!-- header -->
+    <header class="flex">  <!-- header -->
         <div>
             
             <button class="btn btn-sp">
@@ -356,27 +356,31 @@
 
     </main>
 
-    <footer class="flex fixed">  <!-- footer -->
+    <footer class="flex">  <!-- footer -->
 
         <div class="col col-left flex">  <!--col left-->
 
-            <button>
+            <button class="relative">
+                <i class="fas fa-angle-up absolute"></i>
+
                 <i class="fas fa-microphone"></i>
                 <div class="text ">
                     Mute
                 </div>
+
             </button>
 
-            <i class="fas fa-angle-up"></i>
 
-            <button>
+            <button class="relative">
+
+                <i class="fas fa-angle-up absolute"></i>
+
                 <i class="fas fa-video"></i>
                 <div class="text">
                     Stop video
                 </div>
             </button>
 
-            <i class="fas fa-angle-up"></i>
 
         </div>
 
@@ -404,14 +408,13 @@
                 </div>
             </button>
 
-            <button>
+            <button class="relative">
+                <i class="fas fa-angle-up absolute"></i>
                 <i class="fas fa-share-square"></i>
                 <div class="text">
                     Share Screen
                 </div>
             </button>
-
-            <i class="fas fa-angle-up"></i>
 
             <button>
                 <i class="fas fa-comment"></i>
